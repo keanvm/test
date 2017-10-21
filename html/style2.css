@@ -1,0 +1,279 @@
+
+body{
+    margin: 0px 0px 0px 0px;
+    background-color: #ddd;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: #252525;
+    width: 100%;
+    /* text-align: right; */
+    padding: 0;
+    height: 4em;
+ 
+}
+
+img.logo {
+    margin-top: -0.6em;
+    padding-left: 1.25em;
+    height: 5em;
+    float: left;
+}
+
+main.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 600px;
+}
+
+nav ul.nav-wrapper {
+    margin-top: 1em;
+    padding-right: 1.5em;
+    list-style-type: disc;
+    display: block;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 2em;
+}
+
+/* ul.nav-wrapper li{
+    display: inline;
+} */
+
+ul.nav-wrapper li a{
+    text-decoration: none;     
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    display: block;
+    padding: 5px 0 7px 0;
+}
+
+ul.nav-wrapper li a:visited{
+    color: #888;
+}
+
+ul.nav-wrapper li a span{
+    padding: 5px 0 5px 0;
+    display: block;
+}
+
+ul.nav-wrapper li a:hover{
+    padding: 3px 0 5px 0;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-bottom-color: #ff6060;
+    border-bottom-style: solid;
+    border-top-color: #ff6060;
+    border-top-style: solid;
+}
+
+/* ul.nav-wrapper a:before{
+    content: '•';
+    font-size: 1em;
+    padding-top: 1.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    font-weight: 1200;
+    color: #020202;
+} */
+
+
+
+
+
+section.blog, aside {
+    background-color: white;
+    margin-top: 1.5em;
+    /* border-bottom-width: 2px; */
+    /* border-right-width: 2px; */
+    border-color: #bbb;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 1px;
+    padding: 1.25em 1.25em 1.25em 1.25em;
+}
+
+section.blog header h1{
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+section.blog header h2{
+    font-size: 1em;
+    font-weight: bold;
+    color: #666;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+div.imgbox{
+    border-color: #777;
+    border: 1px;
+    border-style: solid;
+    width: 20%;
+    margin: 1.3%;
+    padding: 0 1% 1% 1%;
+    float: left;
+    
+}
+
+
+
+
+section.blog div.imgbox p{
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+section.blog2 :last-child
+{
+    clear: both;
+    float: none;
+}
+
+section.blog{
+    overflow: auto;
+}
+
+section.blog2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.clearfloat2{
+    clear: both;
+    width: 100%;
+    float: none;
+}
+
+
+div.imgbox img{
+    width: 100%;
+    /* width: 10em;
+    margin: 0 2.5em 0 2.5em; */
+}
+img.pimg{
+    width: 20em;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+img.mimg{
+    width: 40%;
+    display: block;
+    margin: 1em 0 1em 0;
+}
+
+header div span{
+    color: #666;
+    font-size: 0.75em;
+}
+
+section.blog p{
+    text-indent: 2em;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border-color: #bbb;
+}
+th{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    height: 1.5em;
+    text-align: center;
+}
+
+table, td, th{
+    border: 1px solid #888;
+}
+
+td{
+    height: 1.5em;
+    padding-left: 8px;
+}
+
+tfoot{
+    background-color: #aaa;
+    font-weight: bold;
+}
+
+ul, ol, dl{
+    font-weight: bold;
+}
+
+
+
+ /* 
+ div row
+ 
+ */
+
+ blockquote {
+    padding: 5px 20px;
+    margin: 0 0 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-left: 5px solid #ccc;
+}
+
+div.divrow{
+    margin-top: 1em;
+}
+
+div.divrow label{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    padding-right: 2em;
+    vertical-align: top;
+}
+div.divrow textarea{
+    width: 56%;
+}
+
+#submit{
+    width: 90%;
+    margin-left: 5%;
+    height: 2em;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 1.2em;
+    background-color: #0893A9;
+    color: white;
+    font-weight: bold;
+}
+
+footer.footer{
+    background-color: #252525;
+    color: #fff;
+    width: 100%;
+    text-align: right;
+    padding: 0;
+    height: 4em;
+    font-weight: bold;
+
+}
+
+footer.footer p{
+    text-align: center;
+    font-size: 1em;
+    padding-top: 1.5em;
+    
+}

@@ -1,0 +1,48 @@
+
+div.container{
+    /* position: relative; */
+    height: auto;
+    width: 100%;
+}
+
+div.center{
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    margin-top: -100px;
+    bottom: auto;
+    left: auto;
+    right: 50%;
+    margin-right: -200px;
+    z-index: 0;
+}
+
+div.upcircle{
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    background-color: yellow;
+    border-bottom-right-radius: 50px;
+}
+
+div.downcircle{
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    right: 50%;
+    bottom: 50%;
+    margin-right: -200px;
+    margin-bottom: -100px;
+    background-color: yellow;
+    border-top-left-radius: 50px;
+}
+
+div.pos{
+    position: absolute;
+}

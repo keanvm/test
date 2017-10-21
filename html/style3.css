@@ -1,0 +1,124 @@
+
+html body{
+    padding: 20px;
+    min-width: 550px;
+    font-size: 15px;
+    margin: 0px;
+}
+
+
+
+div.container{
+    background-color: #eee;
+    padding: 19px;
+    overflow: auto;  
+    border-style: solid;
+    border-color: #999;
+    border-width: 1px;  
+}
+
+/* 
+div.lside{
+    float: left;
+    width: 160px;
+}
+
+div.mmain{
+    margin: 0px 140px 0px 220px;
+    width: auto;
+}
+
+div.rside{
+    float: right;
+    width: 80px;
+} */
+
+div.container{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    min-height: 560px;
+}
+div.lside{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 160px;
+    overflow: auto;
+}
+
+div.rside{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    overflow: auto;
+}
+
+div.mmain{
+    position: absolute;
+    top: 20px;
+    margin: 0px 160px 0px 220px;
+    width: auto;
+    overflow: auto;
+}
+
+
+
+div.lside, div.mmain, div.rside{
+    background-color: white;
+    border-color: #999;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+}
+
+
+img.logo{
+    width: 80px;
+    height: 80px;
+}
+
+img.person-logo{
+    margin-bottom: 20px;
+    padding: 0px;
+    margin-top: 0px;
+    border: 0px;
+    display: block;
+}
+
+img.team-logo{
+    float: left;
+}
+
+div.infowrapper{
+    float: right;
+    width: 60px;
+    padding-left: 0px;
+    margin-top: -4px;
+
+}
+
+div.infowrapper ul{
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.8em;
+    list-style-type: none;
+}
+
+div.infowrapper h3{
+    font-size: 0.88em;
+    font-weight: bold;
+    margin: 0px;
+    padding-bottom: 2px;
+}
+
+
+div.infowrapper h5{
+    font-size: 0.78em;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 1.3em;
+}
+
+

@@ -1,0 +1,95 @@
+
+.container{
+    margin-top: 20px;
+    width: 88%;
+    margin-left: 6%;
+}
+.box{
+    border-style: solid;
+    border-width: 1px;
+    /* border: 80px solid transparent;
+    border-right: 15px solid #ccc; */
+    margin: 10px;
+    height: 50px;
+    width: auto;
+    border-color: black;
+    background-color: gray;
+    color: red;
+}
+
+.row{
+   width: 100%;
+}
+
+.row::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.col-1{
+    width: 8.3333%;
+    float: left;
+}
+
+.col-2{
+    width: 16.6666666%;
+    float: left;
+}
+
+.col-3{
+    width: 25%;
+    float: left;
+}
+
+.col-4{
+    width: 33.3333333333%;
+    float: left;
+}
+
+.col-5{
+    width: 41.66666666%;
+    float: left;
+}
+
+.col-6{
+    width: 50%;
+    float: left;
+}
+
+.col-7{
+    width: 58.3333333333%;
+    float: left;
+}
+
+.col-8{
+    width: 66.666666666%;
+    float: left;
+}
+
+.col-9{
+    float: left;
+    width: 75%;
+}
+
+.col-10{
+    float: left;
+    width: 83.3333333%;
+}
+
+.col-11{
+    float: left;
+    width: 91.6666666666%;
+}
+
+.col-12{
+    float: left;
+    width: 100%;
+}
